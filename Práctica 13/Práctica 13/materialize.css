@@ -1,0 +1,153 @@
+/*//////////////////////ESTILOS DEL NAVBAR///////////*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px; /*Ajustar el espaciado entre los elementos de la lista */
+
+}
+
+a {
+    text-decoration: none;
+    color: #ab47bc; /*Establecer el color de los enlaces */
+    font-weight: bold; /* Hacer que el texto sea negrita */
+}
+
+/* Estilos de la barra de navegación */
+.nav-wrapper{
+    background-color:#ba68c8; /*Establecer el color de los enlaces */
+    padding: 10px; /* Agregar algo de relleno para un mejor espaciado */
+
+}
+
+/* Estilos del menú desplegable */
+.dropwn-content  {
+    display: none;
+    position: absolute;
+    background-color: #fff; /*Etablecer el color de fondo del menú desplegable */
+    box-shadow: 0 8px 16px rgb(0, 0, 0, 0.1); /* Agregar un borde entre los elementos */
+}
+
+/* Estilo de los elementos de la lista dentro del menú desplegable */
+.dropdwon-content li{
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Agregar un borde entre los elementos */
+
+}
+
+/*Mostrar el menú desplegable cuando se pasa el ratón sobre el activador */
+.dropdwon-trigger:hover .dropdwon-content{
+    display: block;
+}
+
+.titulo {
+    text-align: center;
+    color: rgb(48, 88, 7); 
+}
+
+/*///////////////////////////////ESTILOS A LA TABLA//////////////////////////////////////////*/
+
+.container {
+    margin: 20px;
+    margin: auto;
+}
+
+/*Estilos para la cabecera de la tabla */
+.text {
+    color: #1a151b;
+    background-color: rgb(183, 219, 51);
+    font-weight: bold;
+
+}
+
+  /* Estilo para el cuerpo de la tabla */
+  .text-encabezado {
+    background-color: rgb(250, 139, 129);
+    color: rgb(10, 20, 10);
+    text-align: center;
+  }
+
+/* Estilo para resaltar la tabla */
+.table-heighlight {
+    border-spacing: 0;
+    border-collapse: collapse;
+    box-shadow: 0.6px 16px rgba(0, 0, 0, 0.1);
+    max-width: 100%; /* Establecer un ancho máximo */
+    text-align: center;  /* Alinear todo el contenido de la tabla al centro */
+    border: 2px solid #000;
+    line-height: 2.0; /* Establecer el interlineado */
+}
+
+/*Estilos para centrar la tabla */
+table.centered {
+    margin: auto;
+    width: 100%; /* Establecer un ancho del 100% */
+
+}
+
+/*////////////////////ESTILO DE LOS BOTONES////////////////*/
+.container.center{
+    text-align: center;
+    margin: 20px;
+    margin: auto;
+}
+
+/* Estilos para el botón */
+.btn waves-effect waves-ligth lime green-text {
+    background-color: rgb(183, 219, 51);
+    color: green;
+    padding: 12px 30px; /* Ajustar el relleno para cambiar el tamaño del botón */
+    margin: 5px; /* Agregar margen al botón */
+    border: 2px solid #000; /* Agregar borde de 2px sólido negro */
+    display: flex; /* Usar display flex para alinear los íconos */
+    justify-content: center; /* Centrar horizontalmente los íconos */
+    align-items: center; /* Centrar verticalmente los íconos */
+}
+
+/* Estilos para el enlace */
+a.material-icons {
+    background-color: rgb(250, 139, 129);
+    color: rgb(160, 161, 156);
+    text-align: center;
+    padding: 12px 30px; /* Ajustar el relleno para cambiar el tamaño del enlace */
+    margin: 5px; /* Agregar margen alrededor del enlace */
+    border: 2px solid #000; /* Agregar borde de 2px sólido negro */
+    display: flex; /* Usar display flex para alinear los íconos */
+    justify-content: center; /* Centrar horizontalmente los íconos */
+    align-items: center; /* Centrar verticalmente los íconos */
+}
+
+
+.material-icons {
+    vertical-align: middle;
+    margin-right: 14px;
+    text-align: center;
+}
+
+/*/////////////ESTILOS DE FOOTER///////////*/
+
+.page-footer {
+    background-color: rgb(250, 139, 129); /* Color de fondo del pie de página */
+    color: #1d1a1a; /* Color del texto en el pie de página */
+    margin-top: 20px; /* Ajustar el margen superior del pie de página según sea necesario */
+}
+
+.page-footer a {
+    color: #241b1b; /* Color de los enlaces en el pie de página */
+}
+
+.page-footer a:hover {
+    text-decoration: underline; /* Subrayar los enlaces en hover */
+}
+
+.footer-copyright {
+    background-color: #221a1a; /* Color de fondo del área de derechos de autor en el pie de página */
+    color: #ccc; /* Color del texto del área de derechos de autor */
+    padding: 10px 0; /* Agregar relleno superior e inferior */
+}
+
+
